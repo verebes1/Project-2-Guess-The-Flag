@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +14,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_2_Guess_The_Flag" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_6A_Auto_Layout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,6 +25,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Ice-b7-1OR"/>
                                     <constraint firstAttribute="height" constant="100" id="Kjx-XI-M2Q"/>
+                                    <constraint firstAttribute="width" secondItem="jww-me-irg" secondAttribute="height" multiplier="2:1" id="o2E-eu-Rx1"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="uk"/>
                                 <connections>
@@ -35,6 +37,7 @@
                                 <color key="backgroundColor" red="0.91498154399999998" green="0.3783349097" blue="0.73496383430000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="Hxj-HF-DXl"/>
+                                    <constraint firstAttribute="width" secondItem="QB4-ef-9us" secondAttribute="height" multiplier="2:1" id="RaO-gR-98L"/>
                                     <constraint firstAttribute="width" constant="200" id="ds5-Xk-Uvu"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="uk"/>
@@ -46,6 +49,7 @@
                                 <rect key="frame" x="87.5" y="389" width="200" height="100"/>
                                 <color key="backgroundColor" red="0.66902792450000004" green="0.73128575090000003" blue="0.9488992691" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" secondItem="wOJ-NK-vg9" secondAttribute="height" multiplier="2:1" id="4dN-PC-dbp"/>
                                     <constraint firstAttribute="width" constant="200" id="eur-3T-quE"/>
                                     <constraint firstAttribute="height" constant="100" id="kUu-2n-Ee8"/>
                                 </constraints>
@@ -67,8 +71,11 @@
                             <constraint firstItem="QB4-ef-9us" firstAttribute="top" secondItem="jww-me-irg" secondAttribute="bottom" constant="30" id="G0R-rV-BKg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ag1-6S-gRl" secondAttribute="trailing" constant="10" id="JQC-0l-cUK"/>
                             <constraint firstItem="ag1-6S-gRl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="MwE-Wc-J3d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="wOJ-NK-vg9" secondAttribute="bottom" constant="20" id="OEZ-X0-G3J"/>
                             <constraint firstItem="ag1-6S-gRl" firstAttribute="top" secondItem="wOJ-NK-vg9" secondAttribute="bottom" constant="62" id="Ssi-YX-ZtT"/>
+                            <constraint firstItem="QB4-ef-9us" firstAttribute="height" secondItem="jww-me-irg" secondAttribute="height" id="Y6n-ui-Mpm"/>
                             <constraint firstItem="jww-me-irg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cT1-KO-LsV"/>
+                            <constraint firstItem="wOJ-NK-vg9" firstAttribute="height" secondItem="QB4-ef-9us" secondAttribute="height" id="cyw-fr-OEA"/>
                             <constraint firstItem="jww-me-irg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="diM-1y-Wps"/>
                             <constraint firstItem="wOJ-NK-vg9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jDH-es-Mew"/>
                             <constraint firstItem="QB4-ef-9us" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lm3-oQ-dLs"/>

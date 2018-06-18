@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F7B13AF20C6B2F900431B71 /* Project-2-Guess-The-Flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project-2-Guess-The-Flag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7B13AF20C6B2F900431B71 /* Project-6A-Auto-Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project-6A-Auto-Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7B13B220C6B2F900431B71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F7B13B420C6B2F900431B71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F7B13B720C6B2F900431B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		4F7B13B020C6B2F900431B71 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F7B13AF20C6B2F900431B71 /* Project-2-Guess-The-Flag.app */,
+				4F7B13AF20C6B2F900431B71 /* Project-6A-Auto-Layout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F7B13AE20C6B2F900431B71 /* Project-2-Guess-The-Flag */ = {
+		4F7B13AE20C6B2F900431B71 /* Project-6A-Auto-Layout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F7B13C120C6B2FA00431B71 /* Build configuration list for PBXNativeTarget "Project-2-Guess-The-Flag" */;
+			buildConfigurationList = 4F7B13C120C6B2FA00431B71 /* Build configuration list for PBXNativeTarget "Project-6A-Auto-Layout" */;
 			buildPhases = (
 				4F7B13AB20C6B2F900431B71 /* Sources */,
 				4F7B13AC20C6B2F900431B71 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "Project-2-Guess-The-Flag";
+			name = "Project-6A-Auto-Layout";
 			productName = "Project-2-Guess-The-Flag";
-			productReference = 4F7B13AF20C6B2F900431B71 /* Project-2-Guess-The-Flag.app */;
+			productReference = 4F7B13AF20C6B2F900431B71 /* Project-6A-Auto-Layout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4F7B13AA20C6B2F900431B71 /* Build configuration list for PBXProject "Project-2-Guess-The-Flag" */;
+			buildConfigurationList = 4F7B13AA20C6B2F900431B71 /* Build configuration list for PBXProject "Project-6A-Auto-Layout" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F7B13AE20C6B2F900431B71 /* Project-2-Guess-The-Flag */,
+				4F7B13AE20C6B2F900431B71 /* Project-6A-Auto-Layout */,
 			);
 		};
 /* End PBXProject section */
@@ -287,7 +287,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.adprogress.Project-2-Guess-The-Flag";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adprogress.Project-6a-AutoLayout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.adprogress.Project-2-Guess-The-Flag";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adprogress.Project-6a-AutoLayout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F7B13AA20C6B2F900431B71 /* Build configuration list for PBXProject "Project-2-Guess-The-Flag" */ = {
+		4F7B13AA20C6B2F900431B71 /* Build configuration list for PBXProject "Project-6A-Auto-Layout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F7B13BF20C6B2FA00431B71 /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F7B13C120C6B2FA00431B71 /* Build configuration list for PBXNativeTarget "Project-2-Guess-The-Flag" */ = {
+		4F7B13C120C6B2FA00431B71 /* Build configuration list for PBXNativeTarget "Project-6A-Auto-Layout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F7B13C220C6B2FA00431B71 /* Debug */,
